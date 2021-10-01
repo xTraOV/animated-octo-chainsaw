@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+
+body {
+    font-family: 'Spartan', sans-serif;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 800px;
+    width: 1440px;
+    margin: 0;
+    
+}
+
+
+
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 1100px;
+    height: 800px;
+    margin: 126px 165px 0px 165px;
+}
+
+.firstpart {
+    display: flex;
+    margin: 0px 0px 70px 0px;
+    justify-content: space-between;
+}
+
+.firstpartleft {
+    max-width: 350px;
+    max-height: 223px;
+}
+.firstpartleft h1 {
+    font-weight: 700;
+    font-size: 40px;
+    margin: 0px 0px 10px 0px;
+    color: hsl(300, 43%, 22%);
+}
+
+.firstpartright {
+    width: 550px;
+    height: 223px;
+}
+
+.firstpartright img {
+    height: 16px;
+    width: 16px;
+    margin: 0 4px 0 0;
+}
+
+.firstpartright .ratingone, .ratingtwo, .ratingthree {
+    width: 440px;
+    height: 55px;
+    background-color: hsl(300, 24%, 96%);
+    display: flex;
+    padding: 0px 0px 0px 30px;
+    align-items: center;
+    font-weight: 700;
+    font-size: 15px;
+    flex-direction: row;
+    color: hsl(300, 43%, 22%);
+    border-radius: 10px;
+}
+
+.stars {
+    margin: 0 30px 0 0;
+}
+
+.ratingone {
+    margin: 0 0 15px 0px;
+}
+.ratingtwo {
+    margin: 0 0 15px 40px;
+}
+
+.ratingthree {
+    margin: 0 0 0 80px;
+}
+
+.ratingtext {
+    max-width: 240px;
+    margin: 0;
+}
+
+.secondpart {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1100px;
+    height: 270px;
+    display: flex;
+}
+
+.commentone, .commenttwo, .commentthree {
+    background-color: hsl(300, 43%, 22%);
+    width: 320px;
+    height: 235px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0px 0 0 30px;
+}
+
+.commenttext {
+    color: white;
+    font-weight: 400;
+    font-size: 15px;
+    width: 285px;
+}
+
+.commenttwo {
+    margin: 15px 0 0 0;
+}
+
+.commentthree {
+    margin: 30px 0 0 0;
+}
+
+.toppart {
+    display: flex;
+    flex-direction: row;
+}
+
+.person {
+    margin: 0 0 0 30px;
+}
+
+.avatar img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.name {
+    color: white;
+}
+
+.description {
+    color: hsl(333, 80%, 67%);
+}
