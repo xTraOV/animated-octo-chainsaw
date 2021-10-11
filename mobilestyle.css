@@ -1,0 +1,78 @@
+@media (max-width: 420px) {
+    body {
+        height: 100%;
+        display: unset;
+        margin: 0;
+    }
+
+    .content {
+        width: 90%;
+        height: 1400px;
+        margin-left: auto;
+        margin-right: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: -20px;
+    }
+
+    .firstpart {
+        justify-content: center;
+        height: 500px;
+        vertical-align: unset;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .firstpartleft {
+        height: 270px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .firstpartleft h1 {
+        line-height: 37px;
+    }
+    .firstpartleft p {
+        line-height: 25px;
+        margin: 30px 0 0 0 ;
+    }
+
+    .firstpartright {
+        height: 270px;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .firstpartright .ratingone, .ratingtwo, .ratingthree {
+        padding: 0;
+        margin: 0 auto 10px auto;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .stars {
+        margin: 0;
+    }
+    .ratingtext {
+        width: unset;
+    }
+    .secondpart {
+        flex-direction: column;
+        width: 100%;
+        height: 700px;
+        justify-content: center;
+        align-items: center;
+    }
+    .commentone, .commenttwo, .commentthree {
+        width: 100%;
+        padding-left: 30px;
+    }
+    .toppart {    }
+    .commenttext {
+        width: 80%;
+    }
+}
