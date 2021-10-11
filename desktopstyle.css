@@ -8,6 +8,10 @@
     background: transparent;
 }
 
+html {
+    height: 100%;
+    width: 100%;
+}
 
 body {
     font-family: 'Spartan', sans-serif;
@@ -16,8 +20,8 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 800px;
-    width: 1440px;
+    height: 100%;
+    width: 100%;
     margin: 0;
     
 }
@@ -27,120 +31,126 @@ body {
 .content {
     display: flex;
     flex-direction: column;
-    width: 1100px;
-    height: 800px;
-    margin: 126px 165px 0px 165px;
+    width: 77%;
+    height: 100%;
+    margin: 8.75% 11.45% 0px 8.75%;
 }
 
 .firstpart {
     display: flex;
-    margin: 0px 0px 70px 0px;
+    margin: 0px 0px 4.86% 0px;
     justify-content: space-between;
+    height: 33.73%;
+    width: 100%;
+}
+
+.firstpart p {
+    color: hsl(303, 10%, 53%);
+    font-weight: 700;
 }
 
 .firstpartleft {
-    max-width: 350px;
-    max-height: 223px;
+    width: 31.58%;
+    height: 100%;
 }
 .firstpartleft h1 {
     font-weight: 700;
     font-size: 40px;
-    margin: 0px 0px 10px 0px;
+    margin: 0px 0px 0.90% 0px;
     color: hsl(300, 43%, 22%);
 }
 
 .firstpartright {
-    width: 550px;
-    height: 223px;
+    width: 49.63%;
+    height: 100%;
 }
 
 .firstpartright img {
     height: 16px;
     width: 16px;
-    margin: 0 4px 0 0;
 }
 
 .firstpartright .ratingone, .ratingtwo, .ratingthree {
-    width: 440px;
-    height: 55px;
+    width: 79.95%;
+    height: 24.66%;
     background-color: hsl(300, 24%, 96%);
     display: flex;
-    padding: 0px 0px 0px 30px;
+    padding: 0px 0px 0px 5.45%;
     align-items: center;
     font-weight: 700;
-    font-size: 15px;
+    font-size: inherit;
     flex-direction: row;
-    color: hsl(300, 43%, 22%);
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 .stars {
-    margin: 0 30px 0 0;
+    margin: 0 15.25% 0 0;
 }
 
 .ratingone {
-    margin: 0 0 15px 0px;
+    margin: 0 0 2.72% 0px;
 }
 .ratingtwo {
-    margin: 0 0 15px 40px;
+    margin: 0 0 2.72% 7.26%;
 }
 
 .ratingthree {
-    margin: 0 0 0 80px;
+    margin: 0 0 0 14.53%;
 }
 
 .ratingtext {
-    max-width: 240px;
+    width: 54.54%;
     margin: 0;
 }
 
 .secondpart {
     flex-direction: row;
     justify-content: space-between;
-    width: 1100px;
-    height: 270px;
+    height: 40%;
+    width: 100%;
     display: flex;
 }
 
 .commentone, .commenttwo, .commentthree {
     background-color: hsl(300, 43%, 22%);
-    width: 320px;
-    height: 235px;
+    width: 28.86%;
+    height: 88.88%;
     border-radius: 8px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    padding: 0px 0 0 30px;
+    padding: 0px 0 0 2.70%;
 }
 
 .commenttext {
     color: white;
     font-weight: 400;
     font-size: 15px;
-    width: 285px;
+    width: 89.06%;
 }
 
 .commenttwo {
-    margin: 15px 0 0 0;
+    margin: 1.35% 0 0 0;
 }
 
 .commentthree {
-    margin: 30px 0 0 0;
+    margin: 2.7% 0 0 0;
 }
 
 .toppart {
     display: flex;
     flex-direction: row;
+    width: 100%;
+    height: 19.15%;
 }
 
 .person {
-    margin: 0 0 0 30px;
+    margin: 0 0 0 9.37%;
 }
 
 .avatar img {
     border-radius: 50%;
-    width: 40px;
-    height: 40px;
+    height: 100%;
 }
 
 .name {
